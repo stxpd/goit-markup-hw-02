@@ -1,0 +1,60 @@
+body {
+  font-family: "roboto", "railway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+.button-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+}
+
+.title-text {
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 1.07;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+
+.nav-link {
+  color: #404bbf;
+}
+
+.nav-link .link:hover,
+.nav-link .link:focus {
+  color: #4d5ae5;
+}
+
+.address {
+  color: #404bbf;
+}
+
+.address .address-link:hover,
+.address .address-link:focus {
+  color: #4d5ae5;
+}
+
+.address .address-link:active {
+  color: #4d5ae5;
+  font-weight: regular;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 4%;
+  text-decoration: underline;
+}
+
+.main-content .main-content-title {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+}

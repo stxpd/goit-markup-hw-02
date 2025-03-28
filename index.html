@@ -3,57 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
+      <nav class="nav-link">
+        <a href="./index.html"><span class="logo">Web</span>Studio</a>
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a class="link" href="">Studio</a></li>
+          <li><a class="link" href="">Portfolio</a></li>
+          <li><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="address">
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="title">
+        <h1 class="title-text">Effective Solutions for Your Business</h1>
+        <button class="title-button" type="button">
+          <span class="button-text">Order Service</span>
+        </button>
       </section>
 
-      <section>
-        <h2>Description</h2>
+      <section class="main-content">
+        <h2 class="main-hide">Description</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
+            <h3 class="main-content-title">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
+            <h3 class="main-content-title">Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
+            <h3 class="main-content-title">Diligence</h3>
             <p>
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
+            <h3 class="main-content-title">Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -87,6 +108,65 @@
             <img src="./images/wilson.jpg" alt="wilson" width="264" />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/portfolio/bankingapp.jpg"
+              alt="bankingapp"
+              width="360"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/cashlesspayment.jpg"
+              alt="cashlesspayment"
+              width="360"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/meditationapp.jpg"
+              alt="meditationapp"
+              width="360"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/taxiservice.jpg"
+              alt="taxiservice"
+              width="360"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/screenillustrations.jpg"
+              alt="screenillustrations"
+              width="360"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/onlinecourses.jpg"
+              alt="onlinecourses"
+              width="360"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
