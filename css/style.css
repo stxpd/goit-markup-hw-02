@@ -1,9 +1,11 @@
 body {
-  font-family: "roboto", "railway", sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
+  background-color: #ffffff;
+  color: #434455;
 }
 
 .button-text {
@@ -26,6 +28,26 @@ h2 {
   letter-spacing: 2%;
 }
 
+.logo {
+  font-family: "Railway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.nav-link {
+  font-family: "Railway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: ;
+}
+
 .nav-link {
   color: #404bbf;
 }
@@ -37,6 +59,7 @@ h2 {
 
 .address {
   color: #404bbf;
+  font-style: normal;
 }
 
 .address .address-link:hover,
