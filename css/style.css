@@ -1,5 +1,5 @@
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -8,7 +8,60 @@ body {
   color: #434455;
 }
 
-.button-text {
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo .logo-part {
+  color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus,
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+/* .button-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -28,46 +81,42 @@ h2 {
   letter-spacing: 2%;
 }
 
-.logo {
-  font-family: "Railway", sans-serif;
+.logo-span {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
-.nav-link {
-  font-family: "Railway", sans-serif;
+.header-nav {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: ;
-}
-
-.nav-link {
   color: #404bbf;
 }
 
-.nav-link .link:hover,
-.nav-link .link:focus {
+.header-nav .nav-link:hover,
+.header-nav .nav-link:focus {
   color: #4d5ae5;
 }
 
-.address {
+.contacts {
   color: #404bbf;
   font-style: normal;
 }
 
-.address .address-link:hover,
-.address .address-link:focus {
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
   color: #4d5ae5;
 }
 
-.address .address-link:active {
+.contacts .contacts-link:active {
   color: #4d5ae5;
   font-weight: regular;
   font-size: 12px;
@@ -80,4 +129,7 @@ h2 {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 2%;
+} */
+.page-footer {
+  background-color: #2e2f42;
 }
